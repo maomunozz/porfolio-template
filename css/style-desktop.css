@@ -145,7 +145,6 @@ img {
 }
 
 /* Button */
-
 .btn {
   padding: 10px 10px;
   background-color: var(--primary-color);
@@ -317,64 +316,6 @@ img {
 .contact-form textarea:focus {
   outline: none;
   border-color: var(--main-color);
-}
-
-/* Single Project */
-.single-project {
-  padding-top: 30px;
-  padding-bottom: 100px;
-}
-
-.box-portfolio {
-  float: left;
-  width: 50%;
-  padding:20px;
-}
-
-.box-portfolio p {
-  padding-bottom: 12px;
-}
-
-.box-portfolio img {
-  width: 100%;
-  border: 2px solid var(--secondary-color);
-  border-radius: 20px;
-}
-
-.box-portfolio ul {
-  list-style: none;
-  padding-bottom: 20px;
-}
-
-.single-project .single-project-btn .prev{
-  padding-top: 20px;
-  float: left;
-}
-
-.single-project .single-project-btn .next{
-  padding-top: 20px;
-  float: right;
-}
-
-.single-project .hr-small {
-  background: var(--secondary-color);
-  height: 1px;
-  float: none;
-}
-.single-project .hr-small-2 {
-  background: var(--secondary-color);
-  height: 1px;
-  margin-top: 95px;
-}
-
-.single-project .description h4{
-  text-align: center;
-  font-size: 1.5em;
-  margin-bottom: 10px;
-}
-
-.single-project .description p {
-  text-align: justify;
 }
 
 /* Footer */
