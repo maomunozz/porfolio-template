@@ -189,10 +189,11 @@ img {
   float: left;
 }
 
-.portfolio ul li a {
+.portfolio ul li span {
   display: block;
   padding: 20px;
   text-align: center;
+  cursor: pointer;
 }
 
 .txt-btn {
@@ -212,6 +213,11 @@ img {
 }
 
 .box a:hover img{
+  transform: scale(1.1); 
+  border: 2px solid var(--primary-color);
+}
+
+.box .selected {
   transform: scale(1.1); 
   border: 2px solid var(--primary-color);
 }
